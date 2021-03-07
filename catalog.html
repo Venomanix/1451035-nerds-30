@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -26,25 +26,36 @@
         <h1>Магазин готовых шаблонов</h1>
         <section>
             <h2>Список товаров</h2>
-            <ul>
-                <li>Стоимость:</li>
-                <li>Сортировать:</li>
-                <li>
-                    <ul>
-                        <li>по цене</li>
-                        <li>по типу</li>
-                        <li>по названию</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>фильтр товаров:</h2>
-            <form action="#" method="get">
-                <p>От <input type="number" placeholder="0">До <input type="number" placeholder="0"></p>
 
-            </form>
+
+            <h2>Сортировать:</h2>
+            <ul>
+                <li><a href="#"> по цене</a></li>
+                <li>
+                    <a href="#"></a>по типу</a>
+                </li>
+                <li>
+                    <a href="#"></a>по названию</a>
+                </li>
+                <li><a href="#"><button></button></a></li>
+                <li><a href="#"><button></button></a></li>
+            </ul>
+
+
+        </section>
+        <aside>
+            <h2>фильтр товаров:</h2>
             <form method="get" action="#">
+                <fieldset>
+                    <legend>Стоимость:</legend>
+                    <div>
+                        <button></button>
+                        <button></button>
+                    </div>
+                    <div>
+                        <p>От <input type="number" placeholder="0">До <input type="number" placeholder="0"></p>
+                    </div>
+                </fieldset>
                 <fieldset>
                     <legend>Сетка:</legend>
                     <ul>
@@ -100,65 +111,97 @@
                         </li>
                     </ul>
                 </fieldset>
-                <input type="submit" value="Показать">
+                <button type="submit" value="Показать">
             </form>
-        </section>
+        </aside>
         <section>
             <h2>Наши работы и услуги</h2>
             <ul>
-                <li>
+                <li>                    
+                        <img src="img/product-1.jpg" width="360" height="620" alt="Информационный сайт для туристов"> 
+                       <div>
+                        <h3><a href="#"> Sedona</a></h3>                  
                     <a href="#">
-                        <h3>Информационный сайт для туристов</h3>
-                        <p>
-                            <img src="img/product-1.jpg" width="360" height="620" alt="Информационный сайт для туристов">
-                        </p>
+                        <p>Информационный сайт для туристов</p>
+                        
                     </a>
                     <a href="#">9 900 ₽</a>
+                </div>
                 </li>
                 <li>
+                    
+                    <img src="img/product-2.jpg" width="360" height="620" alt="Услуга сайт Pink">
+                
+                <div>
                     <a href="#">
                         <h3>Услуга сайт Pink</h3>
-                        <p>
-                            <img src="img/product-2.jpg" width="360" height="620" alt="Услуга сайт Pink">
-                        </p>
+                        
+                    </a>
+                    <a href="#">
+                        <p>Информационный сайт для туристов</p>
+                        
                     </a>
                     <a href="#">9 900 ₽</a>
+                </div>
                 </li>
                 <li>
+                
+                        <img src="img/product-3.jpg" width="360" height="620" alt="Барбершоп Бородинский">
+                    <div>
                     <a href="#">
                         <h3>Барбершоп Бородинский</h3>
-                        <p>
-                            <img src="img/product-3.jpg" width="360" height="620" alt="Барбершоп Бородинский">
-                        </p>
+                        <a href="#">
+                            <p>Информационный сайт для туристов</p>
+                            
+                        </a>
                     </a>
                     <a href="#">9 900 ₽</a>
+                </div>
                 </li>
                 <li>
+                    
+                        <img src="img/product-4.jpg" width="360" height="620" alt="Сайт вязанных корзинок">
+                    <div>
                     <a href="#">
                         <h3>Сайт вязанных корзинок</h3>
-                        <p>
-                            <img src="img/product-4.jpg" width="360" height="620" alt="Сайт вязанных корзинок">
-                        </p>
+                        <a href="#">
+                            <p>Информационный сайт для туристов</p>
+                            
+                        </a>
                     </a>
                     <a href="#">9 900 ₽</a>
+                </div>
                 </li>
                 <li>
+                    
+                        <img src="img/product-5.jpg" width="360" height="620" alt="Сайт образовательной среды">
+                    <div>
                     <a href="#">
                         <h3>Сайт образовательной среды</h3>
-                        <p>
-                            <img src="img/product-5.jpg" width="360" height="620" alt="Сайт образовательной среды">
-                        </p>
+                        <a href="#">
+                            <p>Информационный сайт для туристов</p>
+                            
+                        </a>
                     </a>
                     <a href="#">9 900 ₽</a>
+                </div>
                 </li>
-                <li>
+                <li>                   
+                    <img src="img/product-6.jpg" width="360" height="620" alt="Сайт крафтового кваса">
+                    <div>
+
+                                           
                     <a href="#">
                         <h3>Сайт крафтового кваса</h3>
-                        <p>
+                        <a href="#">
+                            <p>Информационный сайт для туристов</p>
+                            
+                        </a>
                             <img src="img/product-6.jpg" width="360" height="620" alt="Сайт крафтового кваса">
-                        </p>
+                        
                     </a>
                     <a href="#">9 900 ₽</a>
+                </div>
                 </li>
             </ul>
             <ul>
@@ -179,12 +222,13 @@
     </main>
     <footer>
         <section>
+            <h2>Nerds design studio</h2>
             <img src="map-1.png" alt="Изображение карты">
             <img src="map-marker.png" alt="Маркер карты">
             <div>
                 <p>NЁRDS DESIGN STUDIO</p>
                 <p>191186, Санкт-Петербург, <br>ул. Б. Конюшенная, д. 19/8<br>
-                    <br>тел. +7 (812) 275-75-75</p>
+                    <br><a href="tel:+78122757575"> тел. +7 (812) 275-75-75</a></p>
                 <a href="#"> Напишите нам</a>
             </div>
         </section>
@@ -193,8 +237,8 @@
             <li><img src="facebook-icon.png" alt="Иконка фейсбука" width="81" height="81"></li>
             <li><img src="inst-icon.png" alt="Иконка инстраграмма" width="81" height="81"></li>
         </ul>
-        <h2>Давайте дружить, это выгодно!</h2>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
+        <p>Давайте дружить, это выгодно!</p>
+        <p><span>Скидка</span> 10% для друзей из социальных сетей.</p>
     </footer>
 </body>
 
